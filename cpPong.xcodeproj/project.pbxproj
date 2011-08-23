@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 42;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -130,7 +130,7 @@
 		A01FB69C0F07CF63000AAC7B /* Project object */ = {
 			isa = PBXProject;
 			buildConfigurationList = A01FB69F0F07CF63000AAC7B /* Build configuration list for PBXProject "cpPong" */;
-			compatibilityVersion = "Xcode 2.4";
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (

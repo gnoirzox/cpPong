@@ -1,5 +1,19 @@
 // !$*UTF8*$!
 {
+	231E5A7A1402F7C800CDBD6A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = A01FB6C80F07CFCE000AAC7B /* main.cpp */;
+	};
+	231E5A7B1402F7C800CDBD6A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A01FB6C80F07CFCE000AAC7B /* main.cpp */;
+		name = "main.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1004;
+		vrLoc = 0;
+	};
 	23EFCF121402CD9F00C0882F /* cpPong */ = {
 		isa = PBXExecutable;
 		activeArgIndices = (
@@ -50,8 +64,34 @@
 			23EFCF121402CD9F00C0882F /* cpPong */,
 		);
 		perUserDictionary = {
-			PBXPerProjectTemplateStateSaveDate = 335728031;
-			PBXWorkspaceStateSaveDate = 335728031;
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					859,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 335738802;
+			PBXWorkspaceStateSaveDate = 335738802;
+		};
+		perUserProjectItems = {
+			231E5A7A1402F7C800CDBD6A /* PBXBookmark */ = 231E5A7A1402F7C800CDBD6A /* PBXBookmark */;
+			231E5A7B1402F7C800CDBD6A /* PBXTextBookmark */ = 231E5A7B1402F7C800CDBD6A /* PBXTextBookmark */;
 		};
 		sourceControlManager = 23EFCF1C1402CDD400C0882F /* Source Control */;
 		userBuildSettings = {
@@ -62,5 +102,12 @@
 		executables = (
 			23EFCF121402CD9F00C0882F /* cpPong */,
 		);
+	};
+	A01FB6C80F07CFCE000AAC7B /* main.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1037, 559}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1004}";
+		};
 	};
 }
