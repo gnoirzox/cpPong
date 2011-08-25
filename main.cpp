@@ -3,7 +3,11 @@
 // Headers
 ////////////////////////////////////////////////////////////
 #include <SFML/Graphics.hpp>
-
+#include <iostream>
+#include "keyBinding.h"
+#include "keyBinding.c"
+#include "Actions.h"
+#include "Actions.c"
 
 ////////////////////////////////////////////////////////////
 /// Entry point of application
@@ -23,6 +27,15 @@ int main()
         sf::Event Event;
         while (App.GetEvent(Event))
         {
+			
+			if (PlayerEvent(Keys["MouseLeft"] || Keys["1QKeyCode"] || Keys["2OKeyCode"] || Keys["LeftJoystick"], Event) {
+				MoveLeft();
+			}
+				
+			if (PlayerEvent(Keys["MouseRight"] || Keys["1WKeyCode"] || Keys["2PKeyCode"] || Keys["RightJoystick"], Event) {
+				MoveRight();
+			}
+			
             // Close window : exit
             if (Event.Type == sf::Event::Closed)
                 App.Close();

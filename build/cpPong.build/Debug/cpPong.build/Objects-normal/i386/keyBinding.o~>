@@ -1,0 +1,39 @@
+/Users/sim/Documents/Workspace/cpPong/keyBinding.cpp:12: error: 'sf' has not been declared
+/Users/sim/Documents/Workspace/cpPong/keyBinding.cpp:12: error: expected constructor, destructor, or type conversion before '<' token
+/Users/sim/Documents/Workspace/cpPong/keyBinding.cpp:14: error: 'myKeys' does not name a type
+/Users/sim/Documents/Workspace/cpPong/keyBinding.cpp:17: error: expected constructor, destructor, or type conversion before '.' token
+/Users/sim/Documents/Workspace/cpPong/keyBinding.cpp:18: error: expected constructor, destructor, or type conversion before '.' token
+/Users/sim/Documents/Workspace/cpPong/keyBinding.cpp:19: error: expected constructor, destructor, or type conversion before '.' token
+/Users/sim/Documents/Workspace/cpPong/keyBinding.cpp:20: error: expected constructor, destructor, or type conversion before '=' token
+/Users/sim/Documents/Workspace/cpPong/keyBinding.cpp:23: error: expected constructor, destructor, or type conversion before '.' token
+/Users/sim/Documents/Workspace/cpPong/keyBinding.cpp:24: error: expected constructor, destructor, or type conversion before '.' token
+/Users/sim/Documents/Workspace/cpPong/keyBinding.cpp:25: error: expected constructor, destructor, or type conversion before '.' token
+/Users/sim/Documents/Workspace/cpPong/keyBinding.cpp:26: error: expected constructor, destructor, or type conversion before '=' token
+/Users/sim/Documents/Workspace/cpPong/keyBinding.cpp:29: error: expected constructor, destructor, or type conversion before '.' token
+/Users/sim/Documents/Workspace/cpPong/keyBinding.cpp:30: error: expected constructor, destructor, or type conversion before '.' token
+/Users/sim/Documents/Workspace/cpPong/keyBinding.cpp:31: error: expected constructor, destructor, or type conversion before '.' token
+/Users/sim/Documents/Workspace/cpPong/keyBinding.cpp:32: error: expected constructor, destructor, or type conversion before '=' token
+/Users/sim/Documents/Workspace/cpPong/keyBinding.cpp:35: error: expected constructor, destructor, or type conversion before '.' token
+/Users/sim/Documents/Workspace/cpPong/keyBinding.cpp:36: error: expected constructor, destructor, or type conversion before '.' token
+/Users/sim/Documents/Workspace/cpPong/keyBinding.cpp:37: error: expected constructor, destructor, or type conversion before '.' token
+/Users/sim/Documents/Workspace/cpPong/keyBinding.cpp:38: error: expected constructor, destructor, or type conversion before ';' token
+/Users/sim/Documents/Workspace/cpPong/keyBinding.cpp:41: error: expected constructor, destructor, or type conversion before '.' token
+/Users/sim/Documents/Workspace/cpPong/keyBinding.cpp:42: error: expected constructor, destructor, or type conversion before '.' token
+/Users/sim/Documents/Workspace/cpPong/keyBinding.cpp:43: error: expected constructor, destructor, or type conversion before '.' token
+/Users/sim/Documents/Workspace/cpPong/keyBinding.cpp:44: error: expected constructor, destructor, or type conversion before ';' token
+/Users/sim/Documents/Workspace/cpPong/keyBinding.cpp:47: error: expected constructor, destructor, or type conversion before '.' token
+/Users/sim/Documents/Workspace/cpPong/keyBinding.cpp:48: error: expected constructor, destructor, or type conversion before '.' token
+/Users/sim/Documents/Workspace/cpPong/keyBinding.cpp:49: error: expected constructor, destructor, or type conversion before '.' token
+/Users/sim/Documents/Workspace/cpPong/keyBinding.cpp:50: error: expected constructor, destructor, or type conversion before ';' token
+/Users/sim/Documents/Workspace/cpPong/keyBinding.cpp:53: error: expected constructor, destructor, or type conversion before '.' token
+/Users/sim/Documents/Workspace/cpPong/keyBinding.cpp:54: error: expected constructor, destructor, or type conversion before '.' token
+/Users/sim/Documents/Workspace/cpPong/keyBinding.cpp:55: error: expected constructor, destructor, or type conversion before '.' token
+/Users/sim/Documents/Workspace/cpPong/keyBinding.cpp:56: error: expected constructor, destructor, or type conversion before ';' token
+/Users/sim/Documents/Workspace/cpPong/keyBinding.cpp:59: error: expected constructor, destructor, or type conversion before '.' token
+/Users/sim/Documents/Workspace/cpPong/keyBinding.cpp:60: error: expected constructor, destructor, or type conversion before '.' token
+/Users/sim/Documents/Workspace/cpPong/keyBinding.cpp:61: error: expected constructor, destructor, or type conversion before '.' token
+/Users/sim/Documents/Workspace/cpPong/keyBinding.cpp:62: error: expected constructor, destructor, or type conversion before ';' token
+/Users/sim/Documents/Workspace/cpPong/keyBinding.cpp:65: error: 'MyKeys' was not declared in this scope
+/Users/sim/Documents/Workspace/cpPong/keyBinding.cpp:65: error: 'Event' was not declared in this scope
+/Users/sim/Documents/Workspace/cpPong/keyBinding.cpp:65: error: initializer expression list treated as compound expression
+/Users/sim/Documents/Workspace/cpPong/keyBinding.cpp:65: error: expected ',' or ';' before '{' token
