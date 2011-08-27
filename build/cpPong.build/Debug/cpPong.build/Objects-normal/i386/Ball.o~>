@@ -1,0 +1,13 @@
+In file included from /Users/sim/Documents/Workspace/cpPong/Ball.cpp:10:
+/Users/sim/Documents/Workspace/cpPong/Ball.h:9: error: expected unqualified-id before ')' token
+/Users/sim/Documents/Workspace/cpPong/Ball.cpp:12: error: invalid use of incomplete type 'struct Ball'
+/Users/sim/Documents/Workspace/cpPong/Ball.h:9: error: forward declaration of 'struct Ball'
+/Users/sim/Documents/Workspace/cpPong/Ball.cpp:19: error: invalid use of incomplete type 'struct Ball'
+/Users/sim/Documents/Workspace/cpPong/Ball.h:9: error: forward declaration of 'struct Ball'
+/Users/sim/Documents/Workspace/cpPong/Ball.cpp:27: error: invalid use of incomplete type 'struct Ball'
+/Users/sim/Documents/Workspace/cpPong/Ball.h:9: error: forward declaration of 'struct Ball'
+/Users/sim/Documents/Workspace/cpPong/Ball.cpp:32: error: invalid use of incomplete type 'struct Ball'
+/Users/sim/Documents/Workspace/cpPong/Ball.h:9: error: forward declaration of 'struct Ball'
+/Users/sim/Documents/Workspace/cpPong/Ball.cpp:36: error: expected ',' or '...' before '.' token
+/Users/sim/Documents/Workspace/cpPong/Ball.cpp:36: error: invalid use of incomplete type 'struct Ball'
+/Users/sim/Documents/Workspace/cpPong/Ball.h:9: error: forward declaration of 'struct Ball'

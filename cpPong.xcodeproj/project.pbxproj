@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		238A17281406F64200061539 /* keyBinding.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 238A17271406F64200061539 /* keyBinding.cpp */; };
 		238A172E1407098D00061539 /* Actions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 238A172D1407098D00061539 /* Actions.cpp */; };
+		238A1742140981EF00061539 /* Ball.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 238A1741140981EF00061539 /* Ball.cpp */; };
+		238A17451409872F00061539 /* Raquette.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 238A17441409872F00061539 /* Raquette.cpp */; };
 		23EFCF1B1402CDB600C0882F /* SFML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A01FB6CD0F07CFF2000AAC7B /* SFML.framework */; };
 		A0072ADE0F1D0EC500B4A594 /* sfml-system.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = A01FB6CB0F07CFF2000AAC7B /* sfml-system.framework */; };
 		A0072ADF0F1D0EC500B4A594 /* sfml-window.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = A01FB6CC0F07CFF2000AAC7B /* sfml-window.framework */; };
@@ -40,6 +42,10 @@
 		238A17271406F64200061539 /* keyBinding.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = keyBinding.cpp; sourceTree = "<group>"; };
 		238A172C1407098D00061539 /* Actions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Actions.h; sourceTree = "<group>"; };
 		238A172D1407098D00061539 /* Actions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Actions.cpp; sourceTree = "<group>"; };
+		238A1740140981EF00061539 /* Ball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ball.h; sourceTree = "<group>"; };
+		238A1741140981EF00061539 /* Ball.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ball.cpp; sourceTree = "<group>"; };
+		238A17431409872F00061539 /* Raquette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Raquette.h; sourceTree = "<group>"; };
+		238A17441409872F00061539 /* Raquette.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Raquette.cpp; sourceTree = "<group>"; };
 		A01FB6A90F07CF6E000AAC7B /* cpPong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cpPong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A01FB6AC0F07CF6E000AAC7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A01FB6C80F07CFCE000AAC7B /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -109,6 +115,10 @@
 				238A17271406F64200061539 /* keyBinding.cpp */,
 				238A172C1407098D00061539 /* Actions.h */,
 				238A172D1407098D00061539 /* Actions.cpp */,
+				238A1740140981EF00061539 /* Ball.h */,
+				238A1741140981EF00061539 /* Ball.cpp */,
+				238A17431409872F00061539 /* Raquette.h */,
+				238A17441409872F00061539 /* Raquette.cpp */,
 			);
 			name = Sources;
 			sourceTree = "<group>";
@@ -177,6 +187,8 @@
 				A01FB6C90F07CFCE000AAC7B /* main.cpp in Sources */,
 				238A17281406F64200061539 /* keyBinding.cpp in Sources */,
 				238A172E1407098D00061539 /* Actions.cpp in Sources */,
+				238A1742140981EF00061539 /* Ball.cpp in Sources */,
+				238A17451409872F00061539 /* Raquette.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

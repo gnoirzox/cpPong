@@ -7,6 +7,7 @@
  *
  */
 #include <iostream>
+#include <Joystick.hpp>
 #include "keyBinding.h"
 
 sf::map<std::string, myKeys> Keys;
@@ -61,6 +62,13 @@ key.myEventType= sf::Event::KeyPressed;
 key.myKeyCode= sf::Joystick::Right;
 Keys["RightJoystick"];
 
+//bind left move (abs X) on Joystick
+/*key.myInputType= JoystickInput;
+key.myEventType= sf::Event::Axis;
+key.myKeyCode= sf::Joystick::
+
+//bind right joystick move (abs X) on Joystick
+*/
 
 bool PlayerEvent (MyKeys k, Event e) {
 	//Mouse Event
@@ -72,7 +80,7 @@ bool PlayerEvent (MyKeys k, Event e) {
 		return(true);
 	
 	//Joystick Event
-	if (k.myInputType== JoyStickInput && k.myEventType== e.Type && k.myKeyCode== e.Joystick.KeyPressed)
+	if (k.myInputType== JoyStickInput && k.myEventType== e.Type && k.myKeyCode== e.JoyButton.Button)
 		return(true);
 	
 	//if other Event done

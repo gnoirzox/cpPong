@@ -1,0 +1,13 @@
+In file included from /Users/sim/Documents/Workspace/cpPong/Raquette.cpp:10:
+/Users/sim/Documents/Workspace/cpPong/Raquette.h:10: error: expected unqualified-id before ')' token
+/Users/sim/Documents/Workspace/cpPong/Raquette.cpp:12: error: invalid use of incomplete type 'struct Raquette'
+/Users/sim/Documents/Workspace/cpPong/Raquette.h:10: error: forward declaration of 'struct Raquette'
+/Users/sim/Documents/Workspace/cpPong/Raquette.cpp:18: error: invalid use of incomplete type 'struct Raquette'
+/Users/sim/Documents/Workspace/cpPong/Raquette.h:10: error: forward declaration of 'struct Raquette'
+/Users/sim/Documents/Workspace/cpPong/Raquette.cpp:22: error: invalid use of incomplete type 'struct Raquette'
+/Users/sim/Documents/Workspace/cpPong/Raquette.h:10: error: forward declaration of 'struct Raquette'
+/Users/sim/Documents/Workspace/cpPong/Raquette.cpp:26: error: invalid use of incomplete type 'struct Raquette'
+/Users/sim/Documents/Workspace/cpPong/Raquette.h:10: error: forward declaration of 'struct Raquette'
+/Users/sim/Documents/Workspace/cpPong/Raquette.cpp:30: error: expected ',' or '...' before '.' token
+/Users/sim/Documents/Workspace/cpPong/Raquette.cpp:30: error: invalid use of incomplete type 'struct Raquette'
+/Users/sim/Documents/Workspace/cpPong/Raquette.h:10: error: forward declaration of 'struct Raquette'

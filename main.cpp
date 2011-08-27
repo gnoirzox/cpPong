@@ -19,7 +19,10 @@ int main()
 {
     // Create main window
     sf::RenderWindow App(sf::VideoMode(640, 480), "SFML Graphics");
-
+	
+	//limit to 60fps 
+	app.UseVerticalSync(true);
+	
     // Start game loop
     while (App.IsOpened())
     {

@@ -1,6 +1,5 @@
 /Users/sim/Documents/Workspace/cpPong/main.cpp:8:24: error: keyBinding.c: No such file or directory
 /Users/sim/Documents/Workspace/cpPong/main.cpp:10:21: error: Actions.c: No such file or directory
-/Users/sim/Documents/Workspace/cpPong/main.cpp: In function 'int main()':
-/Users/sim/Documents/Workspace/cpPong/main.cpp:31: error: 'Keys' was not declared in this scope
-/Users/sim/Documents/Workspace/cpPong/main.cpp:31: error: 'PlayerEvent' was not declared in this scope
-/Users/sim/Documents/Workspace/cpPong/main.cpp:31: error: expected `)' before '{' token
+/Users/sim/Documents/Workspace/cpPong/main.cpp:18: error: new types may not be defined in a return type
+/Users/sim/Documents/Workspace/cpPong/main.cpp:18: note: (perhaps a semicolon is missing after the definition of 'inputType')
+/Users/sim/Documents/Workspace/cpPong/main.cpp:18: error: two or more data types in declaration of 'main'
