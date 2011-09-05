@@ -34,11 +34,17 @@
 	238A17271406F64200061539 /* keyBinding.cpp */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1037, 1170}}";
-			sepNavSelRange = "{1783, 0}";
-			sepNavVisRange = "{1072, 1175}";
+			sepNavSelRange = "{1435, 0}";
+			sepNavVisRange = "{1092, 1174}";
 		};
 	};
 	238A172C1407098D00061539 /* Actions.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = Actions.h;
+		path = /Users/sim/Documents/Workspace/cpPong/Actions.h;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1037, 555}}";
 			sepNavSelRange = "{129, 0}";
@@ -46,6 +52,12 @@
 		};
 	};
 	238A172D1407098D00061539 /* Actions.cpp */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = Actions.cpp;
+		path = /Users/sim/Documents/Workspace/cpPong/Actions.cpp;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1037, 555}}";
 			sepNavSelRange = "{175, 0}";
@@ -225,23 +237,44 @@
 	238A1740140981EF00061539 /* Ball.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1037, 555}}";
-			sepNavSelRange = "{219, 0}";
-			sepNavVisRange = "{0, 353}";
+			sepNavSelRange = "{211, 0}";
+			sepNavVisRange = "{0, 413}";
 		};
 	};
 	238A1741140981EF00061539 /* Ball.cpp */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1037, 555}}";
-			sepNavSelRange = "{240, 0}";
-			sepNavVisRange = "{0, 399}";
+			sepNavSelRange = "{483, 0}";
+			sepNavVisRange = "{0, 487}";
 			sepNavWindowFrame = "{{15, 4}, {819, 774}}";
 		};
 	};
 	238A17431409872F00061539 /* Raquette.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1037, 555}}";
-			sepNavSelRange = "{144, 0}";
-			sepNavVisRange = "{0, 144}";
+			sepNavSelRange = "{205, 0}";
+			sepNavVisRange = "{0, 367}";
+		};
+	};
+	238A17441409872F00061539 /* Raquette.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1037, 555}}";
+			sepNavSelRange = "{352, 0}";
+			sepNavVisRange = "{0, 432}";
+		};
+	};
+	238A174714153E0200061539 /* Score.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1037, 555}}";
+			sepNavSelRange = "{126, 0}";
+			sepNavVisRange = "{0, 212}";
+		};
+	};
+	238A174814153E0200061539 /* Score.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1037, 555}}";
+			sepNavSelRange = "{258, 0}";
+			sepNavVisRange = "{0, 276}";
 		};
 	};
 	23EFCF121402CD9F00C0882F /* cpPong */ = {

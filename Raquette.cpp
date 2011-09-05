@@ -15,7 +15,11 @@ Raquette::Raquette() {
 	
 }
 
-float Raquette::getPosition(int positionX, int positionY) const {
+int Raquette::getPositionX(int positionX) const {
+	return positionX;
+}
+
+int Raquette::getPositionY(int positionY) const {
 	
 }
 
@@ -27,6 +31,6 @@ void Raquette::moveRight() {
 	
 }
 
-bool Raquette::colision(int getPosition(), int Ball.getPosition()) const {
+bool Raquette::colision(int getPositionX(), int getPositionY(), int Ball::getPositionX(), int Ball::getPositionY()) const {
 	
 }

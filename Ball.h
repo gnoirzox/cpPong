@@ -13,10 +13,11 @@ class Ball() {
 		int positionY;
 
 	public:
-		float getPosition(int positionX, int positionY) const;
+		int getPositionX(int positionX) const;
+		int getPositionY(int positionY) const;
 		void setPosition();
 		int getSpeed(int speed()) const;
 		int setSpeed();
-		bool colision(int getPosition(), int Raquette.getPosition()) const;
+		bool Ball::colision(int getPositionX(), int getPositionY(), int Raquette.getPositionX(), int Raquette.getPositionY()) const;
 		
 }

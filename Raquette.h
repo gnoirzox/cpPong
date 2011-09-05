@@ -13,8 +13,9 @@ class Raquette() {
 		int positionY;
 	
 	public:
-		float getPosition(int positionX, int positionY) const;
+		float getPositionX(int positionX) const;
+		float getPositionY(int positionY) const;
 		void moveLeft();
 		void moveRight();
-		bool colision(int getPosition(), int Ball.getPosition()) const;
+		bool colision(int getPositionX(), int getPositionY(), int Ball::getPositionX(), int Ball::getPositionY()) const;
 }

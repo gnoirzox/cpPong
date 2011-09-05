@@ -20,7 +20,7 @@ float Ball::getPosition(int positionX, int positionY) const {
 	
 }
 
-void setPosition() {
+void Ball::setPosition() {
 	
 }
 
@@ -33,7 +33,7 @@ int Ball::setSpeed() {
 	
 }
 
-bool Ball::colision(int getPosition(), int Raquette.getPosition()) const {
+bool Ball::colision(int getPositionX(), int getPositionY(), int Raquette::getPositionX(), int Raquette::getPositionY()) const {
 	
 }
 
