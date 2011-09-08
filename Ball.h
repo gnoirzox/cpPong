@@ -11,13 +11,16 @@ class Ball() {
 		int speed;
 		int positionX;
 		int positionY;
+		sf::Shape circle;
 
 	public:
+		Ball();
+		
 		int getPositionX(int positionX) const;
 		int getPositionY(int positionY) const;
 		void setPosition();
 		int getSpeed(int speed()) const;
 		int setSpeed();
-		bool Ball::colision(int getPositionX(), int getPositionY(), int Raquette.getPositionX(), int Raquette.getPositionY()) const;
-		
+		bool colision(int getPositionX(), int getPositionY(), int Raquette.getPositionX(), int Raquette.getPositionY()) const;
+		void draw();
 }

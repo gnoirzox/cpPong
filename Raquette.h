@@ -11,10 +11,16 @@ class Raquette() {
 	private:
 		int positionX;
 		int positionY;
-	
+			
 	public:
-		float getPositionX(int positionX) const;
-		float getPositionY(int positionY) const;
+		sf::Shape rectangle;
+	
+		Raquette();
+	
+		int getPositionX(int positionX) const;
+		int getPositionY(int positionY) const;
+		void setPosition();
+	
 		void moveLeft();
 		void moveRight();
 		bool colision(int getPositionX(), int getPositionY(), int Ball::getPositionX(), int Ball::getPositionY()) const;

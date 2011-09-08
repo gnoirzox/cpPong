@@ -14,26 +14,43 @@ Ball::Ball() {
 	int positionY= 456;
 	int speed= 1;
 	
+	sf::Shape circle;
+	circle.EnableFill(true);
+	circle.EnableOutline(false);
+	circle.Circle(400, 300, Color(255, 255, 255));
+	
 }
 
-float Ball::getPosition(int positionX, int positionY) const {
+int Ball::getPositionX(int positionX) const {
+	return positionX;
+	
+}s
+
+int Ball::getPositionY(int positionY) const {
+	return positionY;
 	
 }
 
 void Ball::setPosition() {
 	
+	
+	App.Draw(circle);
 }
 
 int Ball::getSpeed(int speed()) const {
-	return speed();
+	return Ball::speed;
 	
 }
 
-int Ball::setSpeed() {
-	
+int Ball::setSpeed(int x) {
+	int x;
+	return Ball::speed= x;
 }
 
 bool Ball::colision(int getPositionX(), int getPositionY(), int Raquette::getPositionX(), int Raquette::getPositionY()) const {
 	
 }
 
+void Ball:draw() {
+	return app.Draw(circle);
+}
