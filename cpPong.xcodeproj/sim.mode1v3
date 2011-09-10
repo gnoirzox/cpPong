@@ -229,6 +229,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -270,7 +272,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>12</integer>
+									<integer>10</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -306,14 +308,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Raquette.cpp</string>
+								<string>Collision.cpp</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -321,24 +321,26 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>Raquette.cpp</string>
+										<string>Collision.cpp</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>23AFF4E41419346200EC5128</string>
+										<string>23AFF4FF141BD9F500EC5128</string>
 										<key>history</key>
 										<array>
-											<string>23AFF4D5141922D000EC5128</string>
-											<string>23AFF4D6141922D000EC5128</string>
-											<string>23AFF4D7141922D000EC5128</string>
-											<string>23AFF4D8141922D000EC5128</string>
-											<string>23AFF4DA141922D000EC5128</string>
-											<string>23AFF4DB141922D000EC5128</string>
-											<string>23AFF4DC141922D000EC5128</string>
-											<string>23AFF4DD141922D000EC5128</string>
-											<string>23AFF4E11419346200EC5128</string>
-											<string>23AFF4E21419346200EC5128</string>
-											<string>23AFF4E31419346200EC5128</string>
+											<string>23AFF4F2141BD9F500EC5128</string>
+											<string>23AFF4F3141BD9F500EC5128</string>
+											<string>23AFF4F4141BD9F500EC5128</string>
+											<string>23AFF4F5141BD9F500EC5128</string>
+											<string>23AFF4F6141BD9F500EC5128</string>
+											<string>23AFF4F7141BD9F500EC5128</string>
+											<string>23AFF4F8141BD9F500EC5128</string>
+											<string>23AFF4F9141BD9F500EC5128</string>
+											<string>23AFF4FA141BD9F500EC5128</string>
+											<string>23AFF4FB141BD9F500EC5128</string>
+											<string>23AFF4FC141BD9F500EC5128</string>
+											<string>23AFF4FD141BD9F500EC5128</string>
+											<string>23AFF4FE141BD9F500EC5128</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>

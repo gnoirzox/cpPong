@@ -23,5 +23,4 @@ class Raquette() {
 	
 		void moveLeft();
 		void moveRight();
-		bool colision(int getPositionX(), int getPositionY(), int Ball::getPositionX(), int Ball::getPositionY()) const;
 }

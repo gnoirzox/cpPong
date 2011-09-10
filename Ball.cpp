@@ -31,26 +31,43 @@ int Ball::getPositionY(int positionY) const {
 	
 }
 
+void Ball::moveX() {
+	myBall.Move(myReverseX, 0);
+	
+}
+
+void Ball::moveY() {
+	myBall.Move(0, myReverseY);
+	
+}
+
+void Ball::reverseX() {
+	*myReverseX= -1;
+	
+}
+
+void Ball::reverseY() {
+	*myReverseY= -1;
+	
+}
+
 void Ball::setPosition() {
 	
-	
 	App.Draw(circle);
+	
 }
 
 int Ball::getSpeed(int speed()) const {
-	return Ball::speed;
+	return this.speed;
 	
 }
 
 int Ball::setSpeed(int x) {
-	int x;
-	return Ball::speed= x;
-}
-
-bool Ball::colision(int getPositionX(), int getPositionY(), int Raquette::getPositionX(), int Raquette::getPositionY()) const {
+	return this.speed= x;
 	
 }
 
 void Ball:draw() {
 	return app.Draw(circle);
+	
 }

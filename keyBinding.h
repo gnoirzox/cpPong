@@ -6,6 +6,8 @@
  *  Copyright 2011 supinfo. All rights reserved.
  *
  */
+#include <iostream>
+#include <Joystick.hpp>
 
 enum inputType {
 	MouseInput, 

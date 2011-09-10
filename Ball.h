@@ -19,8 +19,11 @@ class Ball() {
 		int getPositionX(int positionX) const;
 		int getPositionY(int positionY) const;
 		void setPosition();
+		void moveX();
+		void moveY();
+		void reverseX();
+		void reverseY();
 		int getSpeed(int speed()) const;
 		int setSpeed();
-		bool colision(int getPositionX(), int getPositionY(), int Raquette.getPositionX(), int Raquette.getPositionY()) const;
 		void draw();
 }

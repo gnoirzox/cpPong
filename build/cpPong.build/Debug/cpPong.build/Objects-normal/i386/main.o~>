@@ -1,6 +1,12 @@
-/Users/sim/Documents/Workspace/cpPong/main.cpp:8:24: error: keyBinding.c: No such file or directory
-/Users/sim/Documents/Workspace/cpPong/main.cpp:9:21: error: Actions.h: No such file or directory
-/Users/sim/Documents/Workspace/cpPong/main.cpp:10:21: error: Actions.c: No such file or directory
-/Users/sim/Documents/Workspace/cpPong/main.cpp:18: error: new types may not be defined in a return type
-/Users/sim/Documents/Workspace/cpPong/main.cpp:18: note: (perhaps a semicolon is missing after the definition of 'inputType')
-/Users/sim/Documents/Workspace/cpPong/main.cpp:18: error: two or more data types in declaration of 'main'
+/Users/sim/Documents/Workspace/cpPong/main.cpp:10:20: error: Raquette: No such file or directory
+In file included from /Users/sim/Documents/Workspace/cpPong/main.cpp:9:
+/Users/sim/Documents/Workspace/cpPong/Ball.h:9: error: expected unqualified-id before ')' token
+In file included from /Users/sim/Documents/Workspace/cpPong/main.cpp:12:
+/Users/sim/Documents/Workspace/cpPong/Player.h:12: error: expected primary-expression before 'enum'
+/Users/sim/Documents/Workspace/cpPong/Player.h:12: error: ISO C++ forbids initialization of member 'name'
+/Users/sim/Documents/Workspace/cpPong/Player.h:12: error: making 'name' static
+/Users/sim/Documents/Workspace/cpPong/Player.h:12: error: invalid in-class initialization of static data member of non-integral type 'std::string'
+/Users/sim/Documents/Workspace/cpPong/Player.h:12: error: expected ';' before 'enum'
+/Users/sim/Documents/Workspace/cpPong/main.cpp:20: error: new types may not be defined in a return type
+/Users/sim/Documents/Workspace/cpPong/main.cpp:20: note: (perhaps a semicolon is missing after the definition of 'Player')
+/Users/sim/Documents/Workspace/cpPong/main.cpp:20: error: two or more data types in declaration of 'main'

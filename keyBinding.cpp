@@ -6,8 +6,6 @@
  *  Copyright 2011 supinfo. All rights reserved.
  *
  */
-#include <iostream>
-#include <Joystick.hpp>
 #include "keyBinding.h"
 
 sf::map<std::string, myKeys> Keys;

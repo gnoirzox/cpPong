@@ -52,8 +52,3 @@ void Raquette::moveRight() {
 	App.Draw(rectangle);
 
 }
-
-bool Raquette::colision(int getPositionX(), int getPositionY(), int Ball::getPositionX(), int Ball::getPositionY()) const {
-	
-	
-}

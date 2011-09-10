@@ -7,11 +7,16 @@ In file included from /Users/sim/Documents/Workspace/cpPong/Ball.cpp:10:
 /Users/sim/Documents/Workspace/cpPong/Ball.cpp:29: error: expected constructor, destructor, or type conversion before 'int'
 /Users/sim/Documents/Workspace/cpPong/Ball.cpp:34: error: invalid use of incomplete type 'struct Ball'
 /Users/sim/Documents/Workspace/cpPong/Ball.h:9: error: forward declaration of 'struct Ball'
-/Users/sim/Documents/Workspace/cpPong/Ball.cpp:40: error: invalid use of incomplete type 'struct Ball'
+/Users/sim/Documents/Workspace/cpPong/Ball.cpp:39: error: invalid use of incomplete type 'struct Ball'
 /Users/sim/Documents/Workspace/cpPong/Ball.h:9: error: forward declaration of 'struct Ball'
-/Users/sim/Documents/Workspace/cpPong/Ball.cpp:45: error: invalid use of incomplete type 'struct Ball'
+/Users/sim/Documents/Workspace/cpPong/Ball.cpp:44: error: invalid use of incomplete type 'struct Ball'
 /Users/sim/Documents/Workspace/cpPong/Ball.h:9: error: forward declaration of 'struct Ball'
-/Users/sim/Documents/Workspace/cpPong/Ball.cpp:49: error: expected ',' or '...' before '::' token
 /Users/sim/Documents/Workspace/cpPong/Ball.cpp:49: error: invalid use of incomplete type 'struct Ball'
 /Users/sim/Documents/Workspace/cpPong/Ball.h:9: error: forward declaration of 'struct Ball'
-/Users/sim/Documents/Workspace/cpPong/Ball.cpp:53: error: function definition does not declare parameters
+/Users/sim/Documents/Workspace/cpPong/Ball.cpp:54: error: invalid use of incomplete type 'struct Ball'
+/Users/sim/Documents/Workspace/cpPong/Ball.h:9: error: forward declaration of 'struct Ball'
+/Users/sim/Documents/Workspace/cpPong/Ball.cpp:60: error: invalid use of incomplete type 'struct Ball'
+/Users/sim/Documents/Workspace/cpPong/Ball.h:9: error: forward declaration of 'struct Ball'
+/Users/sim/Documents/Workspace/cpPong/Ball.cpp:65: error: invalid use of incomplete type 'struct Ball'
+/Users/sim/Documents/Workspace/cpPong/Ball.h:9: error: forward declaration of 'struct Ball'
+/Users/sim/Documents/Workspace/cpPong/Ball.cpp:70: error: function definition does not declare parameters
