@@ -1,0 +1,13 @@
+In file included from /Users/sim/Documents/Workspace/cpPong/Score.cpp:10:
+/Users/sim/Documents/Workspace/cpPong/Score.h:12: error: expected `:' before 'int'
+/Users/sim/Documents/Workspace/cpPong/Score.h:15: error: expected `:' before 'int'
+/Users/sim/Documents/Workspace/cpPong/Score.cpp:12: error: new types may not be defined in a return type
+/Users/sim/Documents/Workspace/cpPong/Score.cpp:12: note: (perhaps a semicolon is missing after the definition of 'Score')
+/Users/sim/Documents/Workspace/cpPong/Score.cpp:12: error: return type specification for constructor invalid
+/Users/sim/Documents/Workspace/cpPong/Score.cpp:12: error: definition of implicitly-declared 'Score::Score()'
+/Users/sim/Documents/Workspace/cpPong/Score.cpp:12: error: declaration of 'Score::Score()' throws different exceptions
+/Users/sim/Documents/Workspace/cpPong/Score.h:10: error: from previous declaration 'Score::Score() throw ()'
+/Users/sim/Documents/Workspace/cpPong/Score.cpp:16: error: prototype for 'int Score::incScore(int)' does not match any in class 'Score'
+/Users/sim/Documents/Workspace/cpPong/Score.h:15: error: candidate is: int Score::incScore()
+/Users/sim/Documents/Workspace/cpPong/Score.cpp:21: error: prototype for 'void Score::showScore(int) const' does not match any in class 'Score'
+/Users/sim/Documents/Workspace/cpPong/Score.h:16: error: candidate is: void Score::showScore()

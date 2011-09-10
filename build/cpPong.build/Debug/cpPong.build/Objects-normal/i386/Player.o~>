@@ -1,0 +1,16 @@
+In file included from /Users/sim/Documents/Workspace/cpPong/Player.cpp:10:
+/Users/sim/Documents/Workspace/cpPong/Player.h:12: error: 'string' in namespace 'std' does not name a type
+/Users/sim/Documents/Workspace/cpPong/Player.cpp:12: error: new types may not be defined in a return type
+/Users/sim/Documents/Workspace/cpPong/Player.cpp:12: note: (perhaps a semicolon is missing after the definition of 'Player')
+/Users/sim/Documents/Workspace/cpPong/Player.cpp:12: error: return type specification for constructor invalid
+/Users/sim/Documents/Workspace/cpPong/Player.cpp:12: error: definition of implicitly-declared 'Player::Player()'
+/Users/sim/Documents/Workspace/cpPong/Player.cpp:12: error: declaration of 'Player::Player()' throws different exceptions
+/Users/sim/Documents/Workspace/cpPong/Player.h:10: error: from previous declaration 'Player::Player() throw ()'
+/Users/sim/Documents/Workspace/cpPong/Player.cpp: In constructor 'Player::Player()':
+/Users/sim/Documents/Workspace/cpPong/Player.cpp:13: error: 'string' is not a member of 'std'
+/Users/sim/Documents/Workspace/cpPong/Player.cpp:13: error: expected `;' before 'name'
+/Users/sim/Documents/Workspace/cpPong/Player.cpp: At global scope:
+/Users/sim/Documents/Workspace/cpPong/Player.cpp:17: error: prototype for 'int Player::incScore(int)' does not match any in class 'Player'
+/Users/sim/Documents/Workspace/cpPong/Player.h:16: error: candidate is: int Player::incScore()
+/Users/sim/Documents/Workspace/cpPong/Player.cpp:22: error: prototype for 'void Player::showScore(int) const' does not match any in class 'Player'
+/Users/sim/Documents/Workspace/cpPong/Player.h:17: error: candidate is: void Player::showScore()

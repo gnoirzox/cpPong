@@ -1,0 +1,18 @@
+In file included from /Users/sim/Documents/Workspace/cpPong/Collision.cpp:10:
+/Users/sim/Documents/Workspace/cpPong/Collision.h:12: error: ISO C++ forbids declaration of 'Ball' with no type
+/Users/sim/Documents/Workspace/cpPong/Collision.h:12: error: expected ';' before '&' token
+/Users/sim/Documents/Workspace/cpPong/Collision.h:13: error: ISO C++ forbids declaration of 'Raquette' with no type
+/Users/sim/Documents/Workspace/cpPong/Collision.h:13: error: expected ';' before '&' token
+/Users/sim/Documents/Workspace/cpPong/Collision.h:15: error: 'sf' has not been declared
+/Users/sim/Documents/Workspace/cpPong/Collision.h:15: error: ISO C++ forbids declaration of 'Vector2f' with no type
+/Users/sim/Documents/Workspace/cpPong/Collision.h:15: error: expected ';' before 'windowSize'
+/Users/sim/Documents/Workspace/cpPong/Collision.h:18: error: variable or field 'manageX' declared void
+/Users/sim/Documents/Workspace/cpPong/Collision.h:19: error: variable or field 'manageY' declared void
+/Users/sim/Documents/Workspace/cpPong/Collision.h:21: error: expected `)' before '&' token
+In file included from /Users/sim/Documents/Workspace/cpPong/Collision.cpp:11:
+/Users/sim/Documents/Workspace/cpPong/Ball.h:9: error: expected unqualified-id before ')' token
+In file included from /Users/sim/Documents/Workspace/cpPong/Collision.cpp:12:
+/Users/sim/Documents/Workspace/cpPong/Raquette.h:10: error: expected unqualified-id before ')' token
+/Users/sim/Documents/Workspace/cpPong/Collision.cpp:14: error: expected `)' before '&' token
+/Users/sim/Documents/Workspace/cpPong/Collision.cpp:23: error: function definition does not declare parameters
+/Users/sim/Documents/Workspace/cpPong/Collision.cpp:33: error: function definition does not declare parameters
