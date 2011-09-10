@@ -9,7 +9,7 @@
 
 class Player {
 	private:
-		std::string name = enum(player1, player2, computer);
+		Raquette myRaquette;
 		int score;
 
 	public:

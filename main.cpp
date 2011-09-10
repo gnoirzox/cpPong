@@ -5,9 +5,11 @@
 #include <SFML/Graphics.hpp>
 #include <iostream>
 #include "keyBinding.h"
-#include "keyBinding.c"
-#include "Actions.h"
-#include "Actions.c"
+#include "menu.h"
+#include "Ball.h"
+#include "Raquette"
+#include "Collision.h"
+#include "Player.h"
 
 ////////////////////////////////////////////////////////////
 /// Entry point of application

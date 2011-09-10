@@ -22,3 +22,4 @@ class Collision {
 	
 }
 
+bool collision();

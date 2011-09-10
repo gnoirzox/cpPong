@@ -13,6 +13,10 @@
 		238A174C1415432100061539 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 238A174B1415432100061539 /* Player.cpp */; };
 		238A175A1416410B00061539 /* menu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 238A17591416410B00061539 /* menu.cpp */; };
 		23AFF4ED141A7D1700EC5128 /* Collision.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23AFF4EC141A7D1700EC5128 /* Collision.cpp */; };
+		23AFF503141C0BBC00EC5128 /* Raquette2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23AFF502141C0BBC00EC5128 /* Raquette2.cpp */; };
+		23AFF506141C0CA000EC5128 /* CompRaquette.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23AFF505141C0CA000EC5128 /* CompRaquette.cpp */; };
+		23AFF514141C0DE000EC5128 /* Player2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23AFF513141C0DE000EC5128 /* Player2.cpp */; };
+		23AFF517141C0E6A00EC5128 /* CompPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23AFF516141C0E6A00EC5128 /* CompPlayer.cpp */; };
 		23EFCF1B1402CDB600C0882F /* SFML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A01FB6CD0F07CFF2000AAC7B /* SFML.framework */; };
 		A0072ADE0F1D0EC500B4A594 /* sfml-system.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = A01FB6CB0F07CFF2000AAC7B /* sfml-system.framework */; };
 		A0072ADF0F1D0EC500B4A594 /* sfml-window.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = A01FB6CC0F07CFF2000AAC7B /* sfml-window.framework */; };
@@ -52,6 +56,14 @@
 		238A17591416410B00061539 /* menu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = menu.cpp; sourceTree = "<group>"; };
 		23AFF4EB141A7D1700EC5128 /* Collision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Collision.h; sourceTree = "<group>"; };
 		23AFF4EC141A7D1700EC5128 /* Collision.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Collision.cpp; sourceTree = "<group>"; };
+		23AFF501141C0BBC00EC5128 /* Raquette2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Raquette2.h; sourceTree = "<group>"; };
+		23AFF502141C0BBC00EC5128 /* Raquette2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Raquette2.cpp; sourceTree = "<group>"; };
+		23AFF504141C0CA000EC5128 /* CompRaquette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompRaquette.h; sourceTree = "<group>"; };
+		23AFF505141C0CA000EC5128 /* CompRaquette.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CompRaquette.cpp; sourceTree = "<group>"; };
+		23AFF512141C0DE000EC5128 /* Player2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player2.h; sourceTree = "<group>"; };
+		23AFF513141C0DE000EC5128 /* Player2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player2.cpp; sourceTree = "<group>"; };
+		23AFF515141C0E6A00EC5128 /* CompPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompPlayer.h; sourceTree = "<group>"; };
+		23AFF516141C0E6A00EC5128 /* CompPlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CompPlayer.cpp; sourceTree = "<group>"; };
 		A01FB6A90F07CF6E000AAC7B /* cpPong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cpPong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A01FB6AC0F07CF6E000AAC7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A01FB6C80F07CFCE000AAC7B /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -127,8 +139,16 @@
 				23AFF4EC141A7D1700EC5128 /* Collision.cpp */,
 				238A174A1415432100061539 /* Player.h */,
 				238A174B1415432100061539 /* Player.cpp */,
+				23AFF512141C0DE000EC5128 /* Player2.h */,
+				23AFF513141C0DE000EC5128 /* Player2.cpp */,
+				23AFF515141C0E6A00EC5128 /* CompPlayer.h */,
+				23AFF516141C0E6A00EC5128 /* CompPlayer.cpp */,
 				238A17431409872F00061539 /* Raquette.h */,
 				238A17441409872F00061539 /* Raquette.cpp */,
+				23AFF501141C0BBC00EC5128 /* Raquette2.h */,
+				23AFF502141C0BBC00EC5128 /* Raquette2.cpp */,
+				23AFF504141C0CA000EC5128 /* CompRaquette.h */,
+				23AFF505141C0CA000EC5128 /* CompRaquette.cpp */,
 			);
 			name = Sources;
 			sourceTree = "<group>";
@@ -201,6 +221,10 @@
 				238A174C1415432100061539 /* Player.cpp in Sources */,
 				238A175A1416410B00061539 /* menu.cpp in Sources */,
 				23AFF4ED141A7D1700EC5128 /* Collision.cpp in Sources */,
+				23AFF503141C0BBC00EC5128 /* Raquette2.cpp in Sources */,
+				23AFF506141C0CA000EC5128 /* CompRaquette.cpp in Sources */,
+				23AFF514141C0DE000EC5128 /* Player2.cpp in Sources */,
+				23AFF517141C0E6A00EC5128 /* CompPlayer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

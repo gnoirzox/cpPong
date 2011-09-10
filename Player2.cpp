@@ -1,0 +1,11 @@
+/*
+ *  Player2.cpp
+ *  cpPong
+ *
+ *  Created by Simon Rouger on 10/09/11.
+ *  Copyright 2011 supinfo. All rights reserved.
+ *
+ */
+
+#include "Player2.h"
+
